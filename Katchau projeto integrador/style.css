@@ -1,0 +1,211 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #252636;
+    color: #aeaeaf;
+  }
+  
+  header {
+    background: #141424;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    box-shadow: 3px 3px 6px #00000060;
+  }
+
+  .pesquisa {
+    padding: 0.75rem;
+    width: 250px;
+  }
+  
+  .logo span {
+    color: #fff;
+  }
+  
+  header input {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: none;
+  }
+  
+  nav {
+    margin-top: 100px;
+  }
+  
+  nav ul {
+    width: 700px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13pt;
+  }
+  
+  nav li {
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  nav ul {
+    position: absolute;
+    left: 28%;
+    right: 0;
+    top: 115px;
+    height: 49px;
+    background-color: #141424;
+    padding: 1.5rem;
+    box-shadow: 3px 3px 6px #00000060;
+  }
+  
+  .banner {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+  }
+  
+  .banner img {
+    border-radius: 10px;
+    width: 90%;
+    max-width: 1000px;
+  }
+  
+  main {
+    padding: 1rem 2rem;
+  }
+  
+  h2 {
+    font-size: 22pt;
+    margin: 1rem 0 1.5rem;
+    margin-left: 5%;
+  }
+  
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 0 1rem;
+    padding-bottom: 1.5%;
+    margin-left: 5%;
+  }
+  
+  .card {
+    background: #202022;
+    padding: 1rem;
+    border-radius: 12px;
+    width: 250px;
+    height: 460px;
+    text-align: center;
+    box-shadow: 5px 5px 5px #00000060;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .games {
+    background: #202022;
+    padding: 1rem;
+    border-radius: 12px;
+    width: 250px;
+    height: 270px;
+    text-align: center;
+    box-shadow: 5px 5px 5px #00000060;
+  }
+  
+  .games img {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .produto{
+    padding-top: 10pt;
+    padding-bottom: 6pt;
+    font-size: 14pt
+  }
+
+  .preco{
+    color: #ff7700;
+    font-size: 20pt;
+    
+  }
+
+  .parcelamento {
+    color: #ff7700;
+    font-size: 11pt;
+  }
+  
+  .btn-topo {
+    display: block;
+    width: fit-content;
+    margin: 2rem auto;
+    padding: 0.6rem 1.2rem;
+    background-color: #ff7700;
+    color: #000;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  footer {
+    background: #141424;
+    padding: 2rem;
+    color: #ccc;
+  }
+  
+  .footer-content {
+    display: flex;
+  }
+
+  .logo_footer {
+    margin-left: 1.5%;
+  }
+
+  h4{
+    margin-bottom: 7pt;
+  }
+  
+  .copy {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .contato{
+    margin-left: 22%;
+    margin-bottom: 0.5%;
+  }
+
+  .contato img{
+    margin-right: 4pt;
+    cursor: pointer;
+  }
+
+  .contato2{
+    margin-bottom: 9pt;
+  }
+  .info{
+    margin-left: 23%;
+  }
+
+  .info p{
+    cursor: pointer;
+  }
+
+  a{
+    color: #ccc;
+    text-decoration: none;
+  }
+
+  .linha{
+    justify-content: center;
+  }
+  
